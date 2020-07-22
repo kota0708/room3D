@@ -1,0 +1,10 @@
+extends /shared/templates/layout/_default
+
+block vars
+  -
+    var title = 'document'
+
+block main
+  #js-toggle.toggle
+    .toggle-inner
+  canvas#app.canvas(width="600", height="600")
